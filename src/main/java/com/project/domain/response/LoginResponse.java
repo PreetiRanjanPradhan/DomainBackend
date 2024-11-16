@@ -1,4 +1,4 @@
-package com.example.domain.response;
+package com.project.domain.response;
 
 public class LoginResponse {
     String message;
