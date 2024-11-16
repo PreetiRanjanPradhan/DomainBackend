@@ -1,4 +1,4 @@
-package com.example.domain.Dto;
+package com.project.domain.Dto;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
