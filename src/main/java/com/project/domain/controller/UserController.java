@@ -18,10 +18,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ExamPortal.models.Role;
-import com.example.ExamPortal.models.User;
-import com.example.ExamPortal.models.UserRole;
-import com.example.ExamPortal.service.UserService;
+import com.project.domain.models.Role;
+import com.project.domain.models.User;
+import com.project.domain.models.UserRole;
+import com.project.domain.service.UserService;
 
 @CrossOrigin("*")
 @RestController
