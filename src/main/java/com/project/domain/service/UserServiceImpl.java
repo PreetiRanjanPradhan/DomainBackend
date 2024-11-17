@@ -4,11 +4,11 @@ import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Service;
-import com.example.ExamPortal.helper.UserFoundException;
-import com.example.ExamPortal.models.User;
-import com.example.ExamPortal.models.UserRole;
-import com.example.ExamPortal.repository.RoleRepository;
-import com.example.ExamPortal.repository.UserRepository;
+import com.project.domain.helper.UserFoundException;
+import com.project.domain.models.User;
+import com.project.domain.models.UserRole;
+import com.project.domain.repository.RoleRepository;
+import com.project.domain.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {
